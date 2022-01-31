@@ -37,3 +37,10 @@ var microphone = {
     price: 120,
     color: 'black'
 }
+
+function addNumber(number1, number2) {
+    return "Result is " + number1 + number2;
+}
+
+var result = addNumber(5, 4);
+console.log(typeof(result));
